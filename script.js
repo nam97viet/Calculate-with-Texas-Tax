@@ -8,7 +8,7 @@ function checkDivisibility() {
         return;
     }
 
-    if (number % 2 === 0) {
+    if (number%2==0) {
         result.textContent = `Yes, ${number} is divisible by 2.`;
         result.style.color = "green";
     } else {
